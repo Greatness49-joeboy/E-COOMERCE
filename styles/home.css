@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width:100%;
+    position:relative;
+    height: auto;
+    background: white;
+    z-index: 999;
+
+}
+
+.decore{
+    position: absolute;
+    right: 0;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+   padding-bottom: 20px;
+    background-color: transparent;
+    position: relative;
+    justify-content: space-around;
+    padding-top: 20px;
+    flex-wrap: nowrap;
+    line-height: 20px;
+    z-index: 999;
+   
+}
+
+.navbar .links{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 15px;
+    gap: 40px;
+}
+
+.navbar .links li{
+    list-style-type: none;
+}
+
+.navbar .links li a{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar .links li a:hover{
+    color: #fff;
+}
+
+.navbar .authbtn{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 15px;
+    gap: 40px;
+}
+.navbar .authbtn .btns{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: relative;
+    top: 1px;
+}
+
+.navbar .authbtn .btns button{
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: -6.5px;
+    outline: 1px solid black;
+    border: none;
+    background: transparent;
+}
